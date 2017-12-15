@@ -1,0 +1,77 @@
+body {
+    background: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+#clock {
+    width: 974px;
+    margin: 150px;
+    text-align: center;
+    font-size: 150px;
+    color:white;
+}
+#wrapper {
+   width: 90%;
+   min-width: 1280px;
+   position: relative;
+}
+#user {
+    width: 90%;
+    min-width: 1280px;
+    position: relative;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+   transform: scale(1.1,1.1);
+   opacity: 1.0;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* Reddit */
+.fa-reddit {
+    background: rgb(240, 0, 0);
+    color: white;
+}
+/* Youtube */
+.fa-youtube {
+    background: rgb(240, 0, 0);
+    color: white;
+}
+/* Yahoo */
+.fa-yahoo {
+    background: rgb(67, 2, 151);
+    color: white;
+}
+/* Tumblr */
+.fa-tumblr {
+    background: rgb(50,80,109);
+    color: white;
+}
+#repos {
+   position: fixed;
+   top: 0;
+   right:0;
+}
+
