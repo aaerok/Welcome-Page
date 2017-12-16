@@ -74,4 +74,42 @@ body {
    top: 0;
    right:0;
 }
+#dropbutton_pos {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.dropbutton {
+    background: url("images/dropdown.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    height: 36px;
+    padding-left: 36px;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+    opacity: 0.7;
+}
+.dropbutton:hover {
+    opacity: 1.0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+}
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
